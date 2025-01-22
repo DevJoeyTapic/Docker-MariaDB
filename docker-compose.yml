@@ -11,8 +11,8 @@ services:
     environment:
       MARIADB_ROOT_PASSWORD: rootpassword
       MARIADB_DATABASE: testdb
-      MARIADB_USER: mis
-      MARIADB_PASSWORD: w@ll3m_m1s
+      MARIADB_USER: user
+      MARIADB_PASSWORD: userpassword
     volumes:
       - db_data:/var/lib/mysql
     networks:
